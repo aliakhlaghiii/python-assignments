@@ -9,11 +9,12 @@ def menu(self):
     print("show the books' details")
 menu_choice = 0  
 def find_book(self):
-    
+    pass
 book1 = Book("salamate ravan", "alen do baten")
 book2 = Book("vanahade", "simon de bovoir")
 book3 = Book("madiane sorkh yaal", "dowlatabadi")
 user_in = input("Enter a number to choose an option:")
 if user_in == 1:
     find_book()
+    
     
