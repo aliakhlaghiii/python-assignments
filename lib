@@ -1,0 +1,19 @@
+class Book:
+    def __init__(self, name, writer):
+        self.name = name
+        self.writer = writer
+def menu(self):
+    print("1: find a book")
+    print("2: remove a book")
+    print("show the whole books")
+    print("show the books' details")
+menu_choice = 0  
+def find_book(self):
+    
+book1 = Book("salamate ravan", "alen do baten")
+book2 = Book("vanahade", "simon de bovoir")
+book3 = Book("madiane sorkh yaal", "dowlatabadi")
+user_in = input("Enter a number to choose an option:")
+if user_in == 1:
+    find_book()
+    
